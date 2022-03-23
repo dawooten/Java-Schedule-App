@@ -11,8 +11,4 @@ How to start this program: Load the IDE using the above IDE information. Once lo
 run Main. If program loads correctly, a pop-up will occur with a button "Launch Master Appointment 
 Scheduler." Pressing that will load the login screen. Username is "test" and password is "test".
 
-Additional Report: The third report I chose to run was a total number of appointments by customer 
-displaying who the customers are along with the total amount of appointments they currently have 
-scheduled. It is viewable in TableView after running a SQL query and lambda in the background.
-
 MySQL Connector: mysql-connector-java-8.0.25
