@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="602.0" style="-fx-border-color: green; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ReportCustomerAppointmentsController">
+   <children>
+      <Label alignment="CENTER" layoutX="49.0" layoutY="35.0" prefHeight="40.0" prefWidth="594.0" text="Total Appointments by Customer" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="reportMenuButton" layoutX="548.0" layoutY="247.0" mnemonicParsing="false" onAction="#onActionReportMenuButton" text="Report Menu">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TableView fx:id="reportTableView" layoutX="116.0" layoutY="75.0" prefHeight="160.0" prefWidth="478.0">
+        <columns>
+            <TableColumn fx:id="customerName" prefWidth="211.0" text="Customer Name" />
+          <TableColumn fx:id="totalAppointments" prefWidth="266.0" text="Total Appointments" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
