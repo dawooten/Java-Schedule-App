@@ -1,9 +1,9 @@
-Title: C195 Master Appointment Scheduler
+Title: Master Appointment Scheduler
 
 Purpose: This application allows an authorized user to log in and schedule appointments for customers
 with various contacts across different offices and timezones.
 
-Author: Derek Wooten, dwoote3@wgu.edu, v1.2, 10 January 2022
+Author: Derek Wooten, v1.2, 10 January 2022
 
 IDE: IntelliJ Community 2021.1 using JDK 11.0.11 and JavaFX SDK 11.0.2
 
